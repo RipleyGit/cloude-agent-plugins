@@ -16,15 +16,15 @@
 
 ## 📦 收录的 Agent 插件列表
 
-| 插件名称 | 子项目路径 | Provider ID | 插件仓库 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| **Google Antigravity (AGY)** | `plugins/cloude-agent-agycli` | `agy` | [cloude-agent-agycli](https://github.com/RipleyGit/cloude-agent-agycli) | 本地 Google `agy` 执行驱动与 Agent Provider，支持 Gemini 2.5/3.8 系列模型 |
+| 插件名称 | 项目简称 | 子项目路径 | Provider ID | 插件仓库 | 说明 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Antigravity CLI** | `agy` | `plugins/cloude-agent-agycli` | `agy` | [cloude-agent-agycli](https://github.com/RipleyGit/cloude-agent-agycli) | 本地 Antigravity CLI (agy) 执行驱动与 Agent Provider，支持 Gemini 2.5/3.8 系列模型 |
 
 ---
 
 ## 🛠️ 如何为本项目贡献新的 Agent 插件
 
-1. 将你的 Agent 插件独立开源为一个 Git 仓库（确保 `manifest.json` 声明 `type: "agent"` 以及 `agent: { providerId, cliName, models, ... }`）。
+1. 将你的 Agent 插件独立开源为一个 Git 仓库（确保 `manifest.json` 声明 `type: "agent"` 以及 `agent: { providerId, cliName, displayName, models, ... }`）。
 2. 在本项目中添加 Git Submodule：
    ```bash
    git submodule add https://github.com/<your-username>/<your-agent-plugin>.git plugins/<your-agent-plugin>
