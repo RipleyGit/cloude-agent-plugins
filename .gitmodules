@@ -1,0 +1,3 @@
+[submodule "plugins/cloude-agent-agycli"]
+	path = plugins/cloude-agent-agycli
+	url = https://github.com/RipleyGit/cloude-agent-agycli.git
