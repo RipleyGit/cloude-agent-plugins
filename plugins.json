@@ -8,7 +8,7 @@
       "providerId": "agy",
       "repoUrl": "https://github.com/RipleyGit/cloude-agent-agycli.git",
       "description": "本地 Antigravity CLI (agy) 执行驱动与 Agent Provider，支持 Gemini 2.5/3.8 模型调度与双向会话同步",
-      "icon": "Bot",
+      "icon": "https://raw.githubusercontent.com/RipleyGit/cloude-agent-agycli/main/icon.svg",
       "author": "Ripley",
       "version": "1.0.0",
       "defaultModel": "gemini-2.5-pro",
